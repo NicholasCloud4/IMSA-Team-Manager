@@ -10,6 +10,7 @@ public class IMSAApp {
         Team team = new Team("AO Racing", Arrays.asList(driver1, driver2), car);
 
         Race race = new Race("Daytona 24", "Daytona, USA", 24);
+        System.out.println("Hello IMSA!");
 
         RaceManager manager = new RaceManager();
         manager.addTeam(team);
